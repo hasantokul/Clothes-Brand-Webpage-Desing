@@ -1,0 +1,282 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+
+#navbar {
+  background-color: rgb(104, 68, 45);
+  overflow: auto;
+  color: white;
+}
+
+#navbar h1 {
+  font-size: 30px;
+  float: left;
+  padding-top: 15px;
+}
+
+#navbar h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.container {
+  margin: auto;
+  max-width: 1300px;
+  
+}
+
+#navbar ul {
+  float: right;
+}
+
+#navbar ul li {
+  list-style: none;
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 25px;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+
+#navbar ul li a:hover {
+  background-color: rgba(163, 120, 70, 0.979);
+}
+
+#jumbotron {
+    background: url("./images/pexels-cottonbro-6626999\ \(1\).jpg")
+    no-repeat;
+    background-position-x: center;
+    background-position-y: -50px;
+    background-size: auto;
+    border-radius: 5px;
+    height: 750px;
+    padding: 0 80px;
+    overflow: hidden;
+    
+    
+   
+}
+
+.showcase-content {
+    max-width: 750px;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.showcase-content h1 {
+    color: rgba(63, 41, 23, 0.836);
+    padding-top: 250px;
+    font-size: 50px;
+    margin-bottom: 30px;
+    opacity: 0.8;
+    
+}
+
+.showcase-content p {
+    color: rgb(73, 39, 20);
+    font-size: 25px;
+    opacity: 0.5;
+    
+}
+
+
+
+#showcase {
+    padding: 50px 150px;
+    background-color: rgb(43, 21, 9);
+    
+}
+
+#products {
+    background-color: rgb(52, 50, 66);
+    min-width: 650px;
+    
+}
+
+.preview {
+    
+    background-color:white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 50px 50px;
+}
+
+.preview h1 {
+    color:rgb(128, 76, 17)
+    
+}
+
+.container-products {
+    padding: 75px 0;
+}
+
+.card {
+    margin-top: 40px;
+    width: 350px;
+    height: 350px;
+    border: 3px solid rgb(128, 76, 17);
+    border-radius: 3px;
+    padding: 40px 0;
+    background-color: rgb(52, 57, 102);
+    
+}
+
+@media all and (max-width:830px) {
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.card h3 {
+    color: white;
+    margin: 10px 0;
+    font-size: 25px;
+}
+
+.card-container {
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card-image {
+    border-radius: 3px;
+
+}
+
+#info {
+    min-height: 600px;
+    background-color: rgb(97, 53, 13);
+}
+
+.info-img {
+    background: url("./images/pexels-lumn-322207.jpg")
+    no-repeat;
+    height: 500px;
+    width: 50%;
+    float: left;
+}
+
+.info-content {
+    background-color: rgb(52, 57, 102);
+    width: 50%;
+    height: 500px;
+    float: left;
+    text-align: center;
+    padding: 60px 10px;
+}
+
+.info-content h1 {
+    color: white;
+    margin-bottom: 25px;
+}
+
+.info-content p {
+    font-size: 20px;
+    line-height: 1.8em;
+    color: sandybrown;
+    
+}
+
+.container-info {
+    padding: 50px 0;
+}
+
+#footer {
+    height: 60px;
+    background-color: rgb(46, 46, 40);
+    text-align: center;
+    padding-top: 20px;
+}
+
+#footer p {
+    color: white;
+
+}
+
+#all-products {
+    
+    background-color:rgb(48, 53, 83) ;
+}
+
+.container-all-products {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.title {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.gallery {
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-radius: 4px;
+    padding: 80px;
+    min-height: 600px;
+    background:url("./images/pexels-polina-tankilevitch-4723555.jpg")
+}
+
+@media all and (max-width: 1035px) {
+    .gallery {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+.card-gallery {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    width: 250px;
+    padding: 15px;
+    background-color: rgb(238, 235, 235);
+    border: 1px solid gray;
+    border-radius: 3px;
+    float: left;
+    margin: 20px 17.5px;
+}
+
+.card-gallery h1 {
+    margin-top: 10px;
+}
+
+.image-gallery {
+    opacity: none;
+    border-radius: 3px;
+}
+
+.clr {
+    clear: both;
+}
